@@ -1,9 +1,17 @@
 import style from "./AppCard.module.css";
 
 const AppCard = () => {
+    const img = {
+        image: "/images/ciambellone.jpeg"
+    };
+
+
   return (
     <div className="container">
-      <div className="card-top"></div>
+      <div className={style.card}>
+      <div className="cardTop">
+        <img src={img.image} alt="" />
+      </div>
       <div className={style.cardBottom}>
         <h4 className={style.title}>Titolo del post</h4>
         <p>
@@ -13,6 +21,7 @@ const AppCard = () => {
           aliquip ex ea commodo consequat.
         </p>
         <button className={style.btn}>LEGGI DI PIU</button>
+      </div>
       </div>
     </div>
   );

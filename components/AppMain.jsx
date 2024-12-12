@@ -3,7 +3,7 @@ import AppCard from "./AppCard";
 
 const AppMain = () => {
     return (
-        <main className="container">
+        <main className="container border-radius">
             
             <AppCard />
         </main>
