@@ -1,8 +1,9 @@
 import AppCard from "./AppCard";
+import style from "./AppMain.module.css";
 
 const AppMain = () => {
     return (
-        <main>
+        <main className="container">
             <h2>Main</h2>
             <AppCard />
         </main>
